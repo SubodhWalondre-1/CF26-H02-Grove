@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+sqlalchemy
+asyncpg
+redis
+passlib
+bcrypt
+python-jose[cryptography]
+python-multipart
+apscheduler
+celery
+reportlab

@@ -1,0 +1,54 @@
+# Environment variables
+.env
+.env*.local
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py[cod]
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Node / React
+node_modules/
+dist/
+dist-ssr/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Docker
+volumes/
+
+# Operating System
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Editors & IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Architecture & Design Docs
+complete_user_journey.md
+database_design.md
+uiux.md
+api_endpoint.md
+system_architecture.md
