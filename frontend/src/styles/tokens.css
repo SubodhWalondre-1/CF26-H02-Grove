@@ -1,0 +1,44 @@
+:root {
+  /* Color Tokens */
+  --surface: #FFFFFF;
+  --surface-recessed: #F7F9F9;
+  --ink: #0E1414;
+  --ink-muted: #5B6767;
+  --line: #E3E9E8;
+  --pulse-blue: #0B6E8F;
+  --pulse-blue-soft: #E4F1F5;
+  --signal-green: #0F9D66;
+  --signal-green-soft: #E3F5EC;
+  --alert-amber: #C77D22;
+  --critical-red: #B23B3B;
+
+  /* Typography Tokens */
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', 'Courier New', monospace;
+
+  --text-hero: clamp(2.5rem, 5vw, 4.5rem);
+  --text-h1: 2.25rem;
+  --text-h2: 1.5rem;
+  --text-h3: 1.125rem;
+  --text-body: 1rem;
+  --text-caption: 0.8125rem;
+  --text-mono: 0.9375rem;
+
+  /* Spacing Tokens (8px Grid) */
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-6: 48px;
+  --space-8: 64px;
+
+  /* Radius Tokens */
+  --radius-card: 12px;
+  --radius-input: 8px;
+  --radius-pill: 999px;
+
+  /* Layout Dimensions */
+  --sidebar-width: 200px;
+  --header-height: 56px;
+}

@@ -1,0 +1,73 @@
+@import './tokens.css';
+
+/* Universal Box Sizing & Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* Base Body Styles */
+body {
+  font-family: var(--font-body);
+  font-size: var(--text-body);
+  color: var(--ink);
+  background-color: var(--surface);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Typography Utilities */
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.text-muted {
+  color: var(--ink-muted);
+}
+
+.text-caption {
+  font-size: var(--text-caption);
+  font-weight: 500;
+  color: var(--ink-muted);
+}
+
+/* Global Focus Ring */
+:focus-visible {
+  outline: 2px solid var(--pulse-blue);
+  outline-offset: 2px;
+}
+
+/* Subtle Scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--line) transparent;
+}
+
+/* Reduced Motion Preference */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
